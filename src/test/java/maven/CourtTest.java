@@ -47,7 +47,7 @@ public class CourtTest {
 
     @Test
     public void testUpdate() {
-
+        //对代码内容进行修改
         String sql = "update t_emp set emp_position=? where emp_id=?";
 
         String empPosition = "minister";
