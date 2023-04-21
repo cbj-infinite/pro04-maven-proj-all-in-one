@@ -49,6 +49,7 @@ public class CourtTest {
     public void testUpdate() {
         //对代码内容进行修改
         //在远端仓库对代码注释进行修改
+        //我又在idea修改了一次
         String sql = "update t_emp set emp_position=? where emp_id=?";
 
         String empPosition = "minister";
